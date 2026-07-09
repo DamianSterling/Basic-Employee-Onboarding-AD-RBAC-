@@ -1,10 +1,9 @@
 1. Jane's User identity is in the Operations OU
-2. I found that Jane Cooper was in the operations Unit; but he should be a member of the Human Resources Unit. Because she's a HR payroll specialist
+2. I found that Jane Cooper was in the operations Unit; but she should be a member of the Human Resources Unit. Because she's a HR payroll specialist
 3. Jane Cooper is currently a member of: Operations-users. She should be a member of: HR-Users.
 
 
-Jane cooper was in the wrong (OU) she was at the time in the operations-unit, therefore thus the reason why she was able to sign in but the environment,
-domain, and other functions were different than her co-workers in HR. The error was spotted and we place Jane in the HR OU.
+Jane cooper was provisioned in the wrong (OU) and in the wrong security group, thus she was able to sign in, but was in the wrong domain, and functions were different than her co-workers in HR. The error was spotted and I placed Jane in the HR OU and made her a member of HR-Users.
 
 Ticket number: NMG-0047
 Affected user: Jane Cooper (jcooper@NMG.com)
@@ -12,9 +11,9 @@ Issue reported: Unable to access HR shared resources. Desktop policies and mappe
 
 Root cause: Jane was place in the wrong Organizational Unit, and security group.
 
-Fix applied: I moved Jane to the Human resouce Unit, and I was put Jane in the HR security group so she could gain acess.
+Fix applied: I moved Jane to the Human Resouce Unit, and I put Jane in the HR security group so she could gain access.
 
-Verification: I verified that Jane was in th correct unit by reviewing the OU and the security group members list and taking screenshot
+Verification: I verified that Jane was in the correct unit by reviewing the OU and the security group members list and taking screenshots to validate
 
 Date resolved: 7/8/26
 
