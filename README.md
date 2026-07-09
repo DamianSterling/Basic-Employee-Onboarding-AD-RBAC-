@@ -7,7 +7,7 @@
 * The solution was creating a new employee pipeline. I created a new Domain, and then created 4 departments (OUs) so that we could begin with structure and have proper placement. I then created security groups for each department so that when end users are placed, they have (RBAC) Role-Based Access, and so one member from another department (IT) won’t have access to another (HR), confidentiality can be kept, and company efficiency can rise without compromise. Also simulated a mock ticket where a user was provisioned with the incorrect level of access.
   
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://www.youtube.com/watch?v=Ix6cqKg49lw
 
 ## Tools Used
 * Windows Server
